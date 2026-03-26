@@ -229,7 +229,7 @@
 					<!-- Kiri: Logo -->
 					<div class="col-sm-3 navbar-left">
 						<a href="{{ url('/') }}">
-							<img src="{{ asset('assets/img/logobanksumut.png') }}" alt="Logo Bank Sumut" class="nav-logo">
+							<img src="{{ asset('assets/img/logobanksumut.jpg') }}" alt="Logo Bank Sumut" class="nav-logo">
 						</a>
 					</div>
 					
@@ -238,8 +238,6 @@
 						<div class="mainmenu">
 							<ul class="nav navbar-nav">
 								<li><a href="{{ url('/') }}" class="{{ Request::is('/') ? 'active' : '' }}">Beranda</a></li>
-								<li><a href="#" class="{{ Request::is('properti') ? 'active' : '' }}">Properti</a></li>
-								<li><a href="#" class="{{ Request::is('cara-lelang') ? 'active' : '' }}">Cara Lelang</a></li>
 								<li><a href="#" class="{{ Request::is('kontak') ? 'active' : '' }}">Kontak</a></li>
 							</ul>
 						</div>
